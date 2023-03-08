@@ -1,14 +1,21 @@
 package aula02;
 
-public class PessoaFisica {
-    private long cpf;
+import javax.swing.JOptionPane;
 
-    public long getCpf(){
-    return cpf; 
-    }
+class PessoaFisica extends Pessoa{
+    protected long cpf;
 
-    public void setCpf(long cpf){
+
+    PessoaFisica(String nome, String email, long cpf){
+        super(nome, email);
         this.cpf = cpf;
     }
+
+
+    @Override
+    public void acao(){
+        JOptionPane.showMessageDialog(null, "Ação executada no objeto filho");
+    }
+
 
 }
