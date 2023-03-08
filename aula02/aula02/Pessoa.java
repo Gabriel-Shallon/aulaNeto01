@@ -18,9 +18,6 @@ public void setNome(String nome){
 this.nome = nome;
 }
 
-
-
-
 public String getEmail(){
 return email;
 }
@@ -28,7 +25,6 @@ return email;
 public void setEmail(String email){
 this.email = email;
 }
-
 
 
 Pessoa(String nome, String email){
@@ -64,13 +60,11 @@ JOptionPane.showMessageDialog(null, pessoa1.getNome());
 
 
 
-
 String nome = pessoa3.getNome();
 JOptionPane.showMessageDialog(null, nome); 
 
-
-
-
 }
 
+
+public void acao(){}
 }
