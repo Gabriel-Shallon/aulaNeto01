@@ -9,8 +9,6 @@ public static void main( String[] args){
     pessoa1 = new Pessoa();
 
 
-
-
     pessoa1.setNome("Neto");
     JOptionPane.showMessageDialog(null, pessoa1.getNome()); 
 
