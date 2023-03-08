@@ -3,19 +3,11 @@ package aula02;
 import javax.swing.JOptionPane;
 
 public class App {
-    
-public static void main( String[] args){
-    Pessoa pessoa1;
-    pessoa1 = new Pessoa();
+     public static void main(String[] args){
 
-
-    pessoa1.setNome("Neto");
-    JOptionPane.showMessageDialog(null, pessoa1.getNome()); 
-
-
-}
-
-
-
+            PessoaFisica pessoa1 = new PessoaFisica("Neto", "neto@", 7363);
+            JOptionPane.showMessageDialog(null, pessoa1.nome+pessoa1.email+pessoa1.cpf);
+            
+        }
 
 }
